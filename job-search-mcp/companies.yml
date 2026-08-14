@@ -1,0 +1,206 @@
+companies:
+  # ── PRIORITY: HIGH ─────────────────────────────────────────────────────────
+
+  - name: Google
+    career_url: https://careers.google.com
+    fit_notes: Distributed/cloud roles — Google Cloud, Pub/Sub, GCP infra. DV360 deployment is a direct referral lever.
+    priority: high
+
+  - name: Microsoft
+    career_url: https://careers.microsoft.com
+    fit_notes: Backend, Azure, and large-scale cloud engineering roles. Strong India presence in Hyderabad and Bengaluru.
+    priority: high
+
+  - name: Amazon
+    career_url: https://amazon.jobs
+    fit_notes: AWS, scalable services, cloud and machine learning systems. Large India SDE hiring pipeline.
+    priority: high
+
+  - name: Meta
+    career_url: https://www.metacareers.com
+    fit_notes: Distributed systems, AI infrastructure, large-scale backend. Strong Bengaluru office.
+    priority: high
+
+  - name: Uber
+    career_url: https://www.uber.com/us/en/careers/
+    fit_notes: Large-scale infrastructure and real-time backend systems. Recruiter Abhishek Shiri contact active.
+    priority: high
+
+  - name: Adobe
+    career_url: https://careers.adobe.com
+    fit_notes: Backend, AI product, GenAI Document Cloud. MTS2 R167073 applied. Acrobat MCP Server work is direct match.
+    priority: high
+
+  - name: Atlassian
+    career_url: https://www.atlassian.com/company/careers
+    fit_notes: Backend platform and cloud product engineering roles. Strong India engineering presence.
+    priority: high
+
+  - name: Flipkart
+    career_url: https://www.flipkartcareers.com
+    fit_notes: Backend and platform roles for large-scale e-commerce systems. GCP + Python stack overlap.
+    priority: high
+
+  - name: PhonePe
+    career_url: https://www.phonepe.com/careers/
+    fit_notes: Platform and backend roles for digital payments infrastructure. Python-heavy, distributed systems.
+    priority: high
+
+  - name: Razorpay
+    career_url: https://razorpay.com/careers/
+    fit_notes: Payments backend, event-driven architecture, cloud infrastructure. Strong Python culture.
+    priority: high
+
+  - name: Cloudflare
+    career_url: https://www.cloudflare.com/careers/
+    fit_notes: Edge, network, backend, and global-scale cloud platform. Rate limiter production implementation studied.
+    priority: high
+
+  - name: Stripe
+    career_url: https://stripe.com/jobs
+    fit_notes: Backend, data platform, and infrastructure roles at scale. Idempotency + payment system patterns are direct match.
+    priority: high
+
+  - name: Swiggy
+    career_url: https://careers.swiggy.com
+    fit_notes: Real-time event pipelines, Python backend, GCP-native. Bengaluru-heavy hiring.
+    priority: high
+
+  - name: InMobi
+    career_url: https://www.inmobi.com/company/careers/
+    fit_notes: Ad tech backend — DV360 pipeline, Pub/Sub, targeting upload experience maps directly. Best domain match.
+    priority: high
+
+  - name: Postman
+    career_url: https://www.postman.com/company/careers/
+    fit_notes: API platform backend, GCP-native. Noida + Bengaluru presence — no relocation needed.
+    priority: high
+
+  - name: Meesho
+    career_url: https://meesho.io/careers
+    fit_notes: GCP-native, Python-heavy, product backend at scale. Bengaluru-based.
+    priority: high
+
+  - name: Groww
+    career_url: https://groww.in/careers
+    fit_notes: Fintech distributed systems, Python + cloud backend. Fast-growing product company.
+    priority: high
+
+  # ── PRIORITY: MEDIUM ───────────────────────────────────────────────────────
+
+  - name: Salesforce
+    career_url: https://www.salesforce.com/company/careers/
+    fit_notes: High-performance cloud infrastructure and platform engineering. Hyderabad office.
+    priority: medium
+
+  - name: Cisco
+    career_url: https://www.cisco.com/c/en/us/about/careers.html
+    fit_notes: Networking, cloud infrastructure, and AI-era platform roles. Bengaluru presence.
+    priority: medium
+
+  - name: ServiceNow
+    career_url: https://www.servicenow.com/careers.html
+    fit_notes: AI platform, cloud services, and large-scale infrastructure. Hyderabad office.
+    priority: medium
+
+  - name: Intuit
+    career_url: https://www.intuit.com/careers/teams/software-engineering/
+    fit_notes: Scalable backend and cloud services for finance applications. Bengaluru office.
+    priority: medium
+
+  - name: SAP
+    career_url: https://jobs.sap.com
+    fit_notes: Cloud enterprise application and platform engineering. Bengaluru + Pune presence.
+    priority: medium
+
+  - name: NVIDIA
+    career_url: https://www.nvidia.com/en-us/about-nvidia/careers/
+    fit_notes: Large-scale systems, observability, cloud/HPC software. Pune + Bengaluru office.
+    priority: medium
+
+  - name: Walmart
+    career_url: https://careers.walmart.com
+    fit_notes: Cloud, AI, and retail-scale platform engineering. Strong Bengaluru tech centre.
+    priority: medium
+
+  - name: IBM
+    career_url: https://www.ibm.com/careers/software-engineering
+    fit_notes: Cloud computing, AI, and hybrid-cloud software engineering. Large India presence.
+    priority: medium
+
+  - name: Oracle
+    career_url: https://www.oracle.com/careers/
+    fit_notes: Cloud infrastructure and distributed systems engineering. Bengaluru + Hyderabad offices.
+    priority: medium
+
+  - name: Goldman Sachs
+    career_url: https://www.goldmansachs.com/careers/
+    fit_notes: Scalable systems and cloud engineering for finance platforms. Bengaluru office.
+    priority: medium
+
+  - name: LinkedIn
+    career_url: https://careers.linkedin.com
+    fit_notes: Big data, cloud, and backend services. Bengaluru engineering office.
+    priority: medium
+
+  - name: Databricks
+    career_url: https://www.databricks.com/company/careers
+    fit_notes: Data pipelines, cloud-native backend. BigQuery/Redshift/Glue background applies.
+    priority: medium
+
+  - name: Freshworks
+    career_url: https://www.freshworks.com/company/careers/
+    fit_notes: SaaS backend, Python, GCP. Chennai + Bengaluru engineering offices.
+    priority: medium
+
+  - name: Elastic
+    career_url: https://www.elastic.co/about/careers
+    fit_notes: Distributed search and observability backend. India remote roles available.
+    priority: medium
+
+  - name: Sprinklr
+    career_url: https://www.sprinklr.com/careers/
+    fit_notes: Enterprise SaaS backend. Noida-based — no relocation needed.
+    priority: medium
+
+  - name: Nutanix
+    career_url: https://www.nutanix.com/company/careers
+    fit_notes: Cloud infrastructure, Python. Compliance form submitted previously — re-engage.
+    priority: medium
+
+  - name: Info Edge
+    career_url: https://www.infoedge.in/careers.html
+    fit_notes: Naukri.com — reached VP round (Ankit Bansal). Re-engage after 3 months with stronger narrative.
+    priority: medium
+
+  - name: Zepto
+    career_url: https://www.zepto.team/careers
+    fit_notes: Real-time logistics backend, event-driven architecture, rapid scaling.
+    priority: medium
+
+  - name: Juspay
+    career_url: https://juspay.in/careers
+    fit_notes: Payments backend, distributed systems. Python roles exist alongside Haskell.
+    priority: medium
+
+  # ── PRIORITY: LOW ──────────────────────────────────────────────────────────
+
+  - name: KLA
+    career_url: https://www.kla.com/careers
+    fit_notes: Python AI roles exist but niche. Semiconductor domain, slow process. Applied April 2026.
+    priority: low
+
+  - name: LAM Research
+    career_url: https://www.lamresearch.com/careers/
+    fit_notes: Python AI Engineer role identified. Recruiter Nikhila contacted — follow up pending.
+    priority: low
+
+  - name: MongoDB
+    career_url: https://www.mongodb.com/careers
+    fit_notes: Distributed database, platform, and cloud deployment engineering. Limited India SWE roles.
+    priority: low
+
+  - name: Setu
+    career_url: https://setu.co/careers
+    fit_notes: API infrastructure, fintech backend, Python-first. Early-stage but strong product culture.
+    priority: low

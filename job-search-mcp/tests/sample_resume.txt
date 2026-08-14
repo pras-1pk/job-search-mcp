@@ -1,0 +1,7 @@
+Prashant Kumar
+Backend Engineer | 4 years experience
+
+Skills: Python, FastAPI, GCP, Cloud Run, Pub/Sub, Firestore, Redis
+Projects:
+- Built a RAG pipeline using Gemini and Vertex AI
+- Deployed event-driven backend services on GCP

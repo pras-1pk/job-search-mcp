@@ -11,6 +11,8 @@ from tools.search import search_jobs
 from tools.scorer import score_job
 from tools.tracker import track_job
 from tools.scorer import score_job, analyse_job, prefilter_jobs
+from tools.resume_parser import extract_resume_profile
+from tools.crawler import crawl_company_careers
 from prompt import ANALYSE_JOB_PROMPT
 
 server = FastMCP(name="job-search-agent")
@@ -43,6 +45,23 @@ async def track_job_tool(
     recommendation: str,
 ) -> str:
     result = await track_job(title, company, apply_link, score, recommendation)
+    return json.dumps(result, indent=2)
+
+@server.tool(
+    name="extract_resume_profile",
+    description="Parse a resume file and return a structured skill/profile summary for Phase 1 matching.",
+)
+async def extract_resume_profile_tool(file_path: str) -> str:
+    result = extract_resume_profile(file_path=file_path)
+    return json.dumps(result, indent=2)
+
+@server.tool(
+    name="crawl_company_careers",
+    description="Crawl a company career page for role-matching openings using role keywords.",
+)
+async def crawl_company_careers_tool(company: str, role_keywords: str = "backend,python,fastapi,gcp,ai") -> str:
+    keywords = [item.strip() for item in role_keywords.split(",") if item.strip()]
+    result = await crawl_company_careers(company, keywords)
     return json.dumps(result, indent=2)
 
 @server.tool(
@@ -91,6 +110,8 @@ async def search_and_analyse_tool(
             "posted": job["posted"],
             **analysis
         }
+        if combined.get("recommendation") == "skip":
+            continue
         if combined.get("ats_score", 0) >= min_score:
             results.append(combined)
     
